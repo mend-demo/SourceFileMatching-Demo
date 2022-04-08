@@ -11,5 +11,5 @@ One of the major challenges we encounter when trying to match source files to th
 Another challenge is automatically determining which source files constitute part of the source library, and which constitute third-party components that the source library is dependent on. We've implemented detection for file paths that hint at a probable third-party component, and source files found within these folders are filtered out during the matching algorithm. 
 
 # Testing with WhiteSource
-This repository contains an example of the scan open source component using the [Unified Agent](https://whitesource.atlassian.net/wiki/spaces/WD/pages/804814917/Unified+Agent+Overview)
+This repository contains an example of open source components scan (using the [Unified Agent](https://whitesource.atlassian.net/wiki/spaces/WD/pages/804814917/Unified+Agent+Overview)) -
 [SourceFileMatching.yml](https://github.com/Dima2021/SourceFileMatching-Demo/blob/main/.github/workflows/SourceFileMatching.yml)
